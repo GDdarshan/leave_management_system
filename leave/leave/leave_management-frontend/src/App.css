@@ -1,0 +1,151 @@
+/* App.css */
+
+/* General body and layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Button styles */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input, select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="date"] {
+  width: 100%;
+}
+
+/* List of leave requests */
+.leave-list {
+  list-style: none;
+  padding: 0;
+}
+
+.leave-list li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leave-list li a {
+  color: #007BFF;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.leave-list li a:hover {
+  text-decoration: underline;
+}
+
+/* Detail page */
+.detail-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* Additional Styles in App.css */
+
+/* Container for Leave Request List */
+.leave-list-container {
+  padding: 20px;
+}
+
+/* Create Link Style */
+.create-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.create-link:hover {
+  text-decoration: underline;
+}
+
+/* List Item Style */
+.leave-list-item {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* View Link Style */
+.view-link {
+  color: #007BFF;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.view-link:hover {
+  text-decoration: underline;
+}
